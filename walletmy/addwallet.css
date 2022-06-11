@@ -1,0 +1,88 @@
+.div1 {
+    margin-top: 3%;
+    height: 500px;
+    width: 50%;
+    background-image: url("image/ov_img_33.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 65%;
+
+    position: absolute;
+
+}  
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: teal;
+    color: #fff;
+   }
+   .nav-links a {
+    color: #fff;
+   }
+   /* LOGO */
+   .logo {
+    font-size: 32px;
+   }
+   /* NAVBAR MENU */
+   .menu {
+    display: flex;
+    gap: 1em;
+    font-size: 18px;
+   }
+   .menu li:hover {
+    background-color: #4c9e9e;
+    border-radius: 5px;
+    transition: 0.3s ease;
+   }
+   .menu li {
+    padding: 5px 14px;
+   }
+  
+  
+
+body {
+    background-image: url('img/hs.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover; 
+    
+  }
+
+@font-face {
+    font-family: "sample";
+    src: url('font/Therace.ttf');
+}
+
+.div2 {
+
+    margin-top: 3%;
+    height: 500px;
+    width: 35%;
+    border-style: solid;
+    border-width: 10px;
+    border-color: #4f4b4b;
+    box-shadow: 10px 20px #888888;
+    position: absolute;
+    margin-left: 60%;
+    border-radius: 30px;
+}
+
+.lbl {
+    color: black;
+    font-weight: bolder;
+    margin-bottom: 5%;
+
+
+}
+
+.txt {
+
+
+    height: 40px;
+    width: 280px;
+    margin-bottom: 5%;
+}
+
+.body {}
